@@ -1,0 +1,27 @@
+.card {
+	background-color: black;
+	width: max-content;
+	padding: 20px 30px 20px 25px;
+	border-radius: 15px;
+}
+.text {
+	background-color: beige;
+	width: max-content;
+	border-radius: 5px;
+	padding: 5px;
+}
+h1 {
+	font-size: 24px;
+}
+h2 {
+	font-size: 20px;
+}
+.img {
+	border: solid beige;
+	width: 100%;
+}
+p {
+	background-color: beige;
+	width: 100%;
+	text-align: center;
+}
