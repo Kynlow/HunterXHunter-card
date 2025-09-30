@@ -4,7 +4,7 @@
 	padding: 20px 30px 20px 25px;
 	border-radius: 15px;
 }
-.text {
+h2 {
 	background-color: beige;
 	width: max-content;
 	border-radius: 5px;
@@ -20,8 +20,13 @@ h2 {
 	border: solid beige;
 	width: 100%;
 }
-p {
+.description {
 	background-color: beige;
-	width: 100%;
-	text-align: center;
+}
+p {
+	margin: 0;
+}
+p:nth-child(1) {
+	background-color: beige;
+	width: max-content;
 }
