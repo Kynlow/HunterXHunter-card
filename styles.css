@@ -26,7 +26,20 @@ h2 {
 p {
 	margin: 0;
 }
-p:nth-child(1) {
-	background-color: beige;
-	width: max-content;
+.block1 {
+	display: flex;
+	background-color: #cecfbc;
+	justify-content: space-around;
+	align-items: center;
+	padding: 10px 0px;
+}
+.block1 p {
+	width: 100%;
+	text-align: center;
+	border: solid;
+}
+.block1 p:nth-child(1) {
+	width: 100%;
+	font-size: 24px;
+	font-weight: 800;
 }
